@@ -1,7 +1,7 @@
 programa
 {
 	
-	funcao inicio(){
+	funcao inicio(){
 	cadeia  lista_convidado[100],nome
 	inteiro opcao,i,numero
 
@@ -51,7 +51,8 @@ programa
 		caso contrario:
 			escreva("OPÇÃO INCORRETA!")
 			}
-		}enquanto(opcao != 0)
+		}
+enquanto(opcao != 0)
 		escreva("Encerrando o programa")
 	}
 }
